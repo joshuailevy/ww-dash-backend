@@ -19,7 +19,7 @@ if __name__=="__main__":
     from Bio import SeqIO
     Entrez.email = "jolevy@scripps.edu"
     # handle = Entrez.esearch(db="sra", idtype='acc', retmax=10000, term="((wastewater metagenome[Organism] OR (wastewater metagenome[Organism] OR wastewater metagenome[All Fields])) AND (Severe acute respiratory syndrome coronavirus 2[Organism] OR (Severe acute respiratory syndrome coronavirus 2[Organism] OR sars-cov-2[All Fields]))) AND strategy wgs[Properties]")#, idtype="acc")
-    handle = Entrez.esearch(db="sra", idtype='acc', retmax=500,
+    handle = Entrez.esearch(db="sra", idtype='acc', retmax=1000,
                             sort='recently_added',
                             term="((wastewater metagenome[Organism] OR wastewater metagenome[All Fields]) AND SARS-CoV-2))") 
     record = Entrez.read(handle)
