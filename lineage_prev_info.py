@@ -3,7 +3,7 @@ import os
 from freyja.utils import prepLineageDict, prepSummaryDict
 
 agg_df = pd.read_csv('agg_freyja.tsv', skipinitialspace=True, sep='\t',index_col=0) 
-agg_df = prepLineageDict(agg_df)
+agg_df = prepLineageDict(agg_df,thresh=0.00001)
 
 agg_df.index = [ agi.split('.')[0] for agi in agg_df.index]
 
