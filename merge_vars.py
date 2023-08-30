@@ -23,7 +23,7 @@ for var in os.listdir(varsDir):
 
 # dfAll =dfAll[dfAll['sample']=='SRR25665869']
 dfAll = dfAll.set_index(['mutName','sample'])
-dfAll.to_csv('testData.csv')
+dfAll.to_pickle('testData.pkl')
     
 muts=['C897A','G3431T','A7842G','C8293T','G8393A','T9866C','G11042T','C12789T','T13339C','T15756A','A18492G','C21711T','G21941T','T22032C','C22033A','A22034G','C22208T','C22353A','G22577C','G22770A','G22895C','T22896A','G22898A','A22910G','C22916T','T22942A','T23005A','G23012A','C23013A','T23018C','T23019C','C23271T','C23423T','A23604G','C24378T','C24990T','C25207T','G26529C','A26610G','C26681T','C26833T','C28958A']
 from collections import Counter

@@ -1,0 +1,6 @@
+	vars/SRR25726442.tsv
+summarized	[('XBB.1.16* [Omicron (XBB.1.16.X)]', 0.848967233390725), ('XBB.1.9* [Omicron (XBB.1.9.X)]', 0.1414090973871343)]
+lineages	XBB.1.16.1 FL.1.5 XBB.1.16.6
+abundances	0.73078731 0.14140910 0.11817992
+resid	9.836745970378306
+coverage	91.30187606594656

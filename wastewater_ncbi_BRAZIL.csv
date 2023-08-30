@@ -1,0 +1,19 @@
+,collection_date,geo_loc_name,isolation_source,ww_population,ww_sample_duration,ww_sample_matrix,ww_sample_type,ww_surv_target_1,ww_surv_target_1_known_present,BioSampleModel,experiment_id,SRA_id
+SRR24019904,2021-12-01,Brazil: Rio de Janeiro,affluent of wastewater treatment plant,1500,4,raw wastewater,composite,SARS-CoV-2,yes,SARS-CoV-2: wastewater surveillance,SRR24019904,SRX19822634
+SRR24019903,2021-12-01,Brazil: Rio de Janeiro,effluent of wastewater treatment plant,1500,4,secondary effluent,composite,SARS-CoV-2,yes,SARS-CoV-2: wastewater surveillance,SRR24019903,SRX19822635
+SRR24019906,2021-09-01,Brazil: Rio de Janeiro,affluent of wastewater treatment plant,1500,4,raw wastewater,composite,SARS-CoV-2,yes,SARS-CoV-2: wastewater surveillance,SRR24019906,SRX19822632
+SRR24019905,2021-09-01,Brazil: Rio de Janeiro,effluent of wastewater treatment plant,1500,4,secondary effluent,composite,SARS-CoV-2,yes,SARS-CoV-2: wastewater surveillance,SRR24019905,SRX19822633
+SRR24019908,2021-08-01,Brazil: Rio de Janeiro,affluent of wastewater treatment plant,1500,4,raw wastewater,composite,SARS-CoV-2,yes,SARS-CoV-2: wastewater surveillance,SRR24019908,SRX19822630
+SRR24019907,2021-08-01,Brazil: Rio de Janeiro,effluent of wastewater treatment plant,1500,4,secondary effluent,composite,SARS-CoV-2,yes,SARS-CoV-2: wastewater surveillance,SRR24019907,SRX19822631
+SRR24019910,2021-07-01,Brazil: Rio de Janeiro,affluent of wastewater treatment plant,1500,4,raw wastewater,composite,SARS-CoV-2,yes,SARS-CoV-2: wastewater surveillance,SRR24019910,SRX19822628
+SRR24019909,2021-07-01,Brazil: Rio de Janeiro,effluent of wastewater treatment plant,1500,4,secondary effluent,composite,SARS-CoV-2,yes,SARS-CoV-2: wastewater surveillance,SRR24019909,SRX19822629
+SRR24019896,2021-06-01,Brazil: Rio de Janeiro,affluent of wastewater treatment plant,1500,4,raw wastewater,composite,SARS-CoV-2,yes,SARS-CoV-2: wastewater surveillance,SRR24019896,SRX19822642
+SRR24019895,2021-06-01,Brazil: Rio de Janeiro,effluent of wastewater treatment plant,1500,4,secondary effluent,composite,SARS-CoV-2,yes,SARS-CoV-2: wastewater surveillance,SRR24019895,SRX19822643
+SRR24019898,2021-05-01,Brazil: Rio de Janeiro,affluent of wastewater treatment plant,1500,4,raw wastewater,composite,SARS-CoV-2,yes,SARS-CoV-2: wastewater surveillance,SRR24019898,SRX19822640
+SRR24019897,2021-05-01,Brazil: Rio de Janeiro,effluent of wastewater treatment plant,1500,4,secondary effluent,composite,SARS-CoV-2,yes,SARS-CoV-2: wastewater surveillance,SRR24019897,SRX19822641
+SRR24019900,2021-03-01,Brazil: Rio de Janeiro,affluent of wastewater treatment plant,1500,4,raw wastewater,composite,SARS-CoV-2,yes,SARS-CoV-2: wastewater surveillance,SRR24019900,SRX19822638
+SRR24019899,2021-03-01,Brazil: Rio de Janeiro,effluent of wastewater treatment plant,1500,4,secondary effluent,composite,SARS-CoV-2,yes,SARS-CoV-2: wastewater surveillance,SRR24019899,SRX19822639
+SRR24019902,2021-02-01,Brazil: Rio de Janeiro,affluent of wastewater treatment plant,1500,4,raw wastewater,composite,SARS-CoV-2,yes,SARS-CoV-2: wastewater surveillance,SRR24019902,SRX19822636
+SRR24019901,2021-02-01,Brazil: Rio de Janeiro,effluent of wastewater treatment plant,1500,4,secondary effluent,composite,SARS-CoV-2,yes,SARS-CoV-2: wastewater surveillance,SRR24019901,SRX19822637
+SRR24019911,2021-01-01,Brazil: Rio de Janeiro,effluent of wastewater treatment plant,1500,4,secondary effluent,composite,SARS-CoV-2,yes,SARS-CoV-2: wastewater surveillance,SRR24019911,SRX19822627
+SRR24019912,2021-01-01,Brazil: Rio de Janeiro,affluent of wastewater treatment plant,1500,4,raw wastewater,composite,SARS-CoV-2,yes,SARS-CoV-2: wastewater surveillance,SRR24019912,SRX19822626
