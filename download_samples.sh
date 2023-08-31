@@ -1,7 +1,6 @@
-# data='samples_names.txt'
-data='samp_names.txt'
+data='samples_names.txt'
 #skip the header row. 
-# tail +2 wastewater_ncbi.csv | cut -d, -f1 > $data
+tail +2 wastewater_ncbi.csv | cut -d, -f1 > $data
 
 while read sample; do
 
@@ -19,7 +18,7 @@ if [ ! -f "vars/${sample}.tsv" ]; then
 	samtools index "bams/${sample}.sorted.bam" 
 	ivar trim -x 4 -e -m 80 -i "bams/${sample}.sorted.bam" -b ${bedfile} -p "trimmed/${sample}.trimmed"
 
-	rm bams/*
+	rm "bams/${sample}.sorted.bam" "bams/${sample}.bam"
 
 	samtools sort -o "trimmed/${sample}.trimmed.sorted.bam" "trimmed/${sample}.trimmed.bam"
 	samtools index "trimmed/${sample}.trimmed.sorted.bam"
@@ -29,7 +28,7 @@ if [ ! -f "vars/${sample}.tsv" ]; then
 	minSite=22556
 	maxSite=23156
 	freyja covariants trimmed/${sample}.trimmed.sorted.bam $minSite $maxSite --min_count 10 --gff-file data/NC_045512_Hu-1.gff --ref-genome  data/NC_045512_Hu-1.fasta --output covariants/${sample}.covariants.tsv 
-	rm trimmed/*
+	rm "trimmed/${sample}.trimmed.sorted.bam" "trimmed/${sample}.trimmed.bam"
 fi
 
 done < $data

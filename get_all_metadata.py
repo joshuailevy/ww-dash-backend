@@ -5,6 +5,8 @@ import shortuuid
 
 if __name__=="__main__":
     accIDs = [id0.split('.tsv')[0] for id0 in os.listdir('vars/')]
+    df0 = pd.read_csv('wastewater_ncbi_ALL.csv',index_col=0)
+    accIDs = [ais for ais in accIDs if ais not in df0.index]
 
     from Bio import Entrez
     from Bio import SeqIO
@@ -29,6 +31,7 @@ if __name__=="__main__":
         sampExp = [r.text for r in root0.findall('.//EXPERIMENT/IDENTIFIERS/PRIMARY_ID')]
         seq_meta = [r.text for r in root0.findall('.//RUN_SET/RUN/RUN_ATTRIBUTES/RUN_ATTRIBUTE/')]
         sampID =  [r.text for r in root0.findall('.//RUN_SET/RUN/IDENTIFIERS/PRIMARY_ID')]
+
         if len(sampID)>1:
             print('more than one experiment... add funcs')
             asdfa
@@ -55,6 +58,7 @@ if __name__=="__main__":
     df['site id'] = df['collection_site_id'].combine_first(merged)
     ## add last 
     # df = df[df['collection_date'] >='2023-07-20']
+    df = pd.concat((df0,df),axis=0)
     df.to_csv('wastewater_ncbi_ALL.csv')
 
 
